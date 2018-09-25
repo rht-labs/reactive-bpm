@@ -3,7 +3,7 @@
   <bpmn2:itemDefinition id="_signalDataItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="_signalNameItem" structureRef="String"/>
   <bpmn2:signal id="_10575c83-c39e-3351-be18-0da88d50f971" name="#{signalName}"/>
-  <bpmn2:process id="Rides.ReusableSignalCatchingProcess" drools:packageName="io.openinnovationlabs" drools:version="1.0" name="" isExecutable="true">
+  <bpmn2:process id="ReactiveBPM.ReusableSignalCatchingProcess" drools:packageName="io.openinnovationlabs" drools:version="1.0" name="" isExecutable="true">
     <bpmn2:extensionElements>
       <drools:import name="org.kie.api.runtime.process.WorkflowProcessInstance"/>
       <drools:import name="java.util.Map"/>
